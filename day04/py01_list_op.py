@@ -71,3 +71,19 @@ for i in arr:
     sum = sum + i
 
 print(f"{len(arr)}까지의 합산은, {sum}입니다.")
+
+
+
+# append()    # append는 그대로 배열가져오고
+x = ['W', 'Y', 'Z']
+y = ['A', 'C', 'E']
+
+x.append(y)
+print(x)
+
+# extend()  # extend는 끝에 요소 추가
+x = ['W', 'Y', 'Z']
+y = ['A', 'C', 'E']
+
+x.extend(y)
+print(x)
