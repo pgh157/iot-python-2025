@@ -1,3 +1,4 @@
+ #$ 함수 클릭하고 F12누르면 해당 함수로 이동
 
 import os # 운영체제 모듈
 from Movie import Movie   #$ from절이 import보다 좋음
@@ -23,21 +24,33 @@ def run():
     while True:
         sel_menu = set_menu()
         if sel_menu== 1:
-            movie = set_movie()
-            lst_movie.append(movie)
+            print("------------")
+            try:
+
+                movie = set_movie()
+                lst_movie.append(movie)
+                print("영화입력 성공!!")
+            except Exception as e:
+                print(f"영화입력 실패!! {e}")
 
         elif sel_menu == 2:
+            print("------------")
             print("영화 출력")
+            print("------------")
             get_movie(lst_movie)
 
         elif sel_menu == 3:
+            print("------------")
             print("영화 검색")
+            print("------------")
             title = input("검색할 영화명 입력 > ")
             search_movie(lst_movie, title)
                     
 
         elif sel_menu == 4:
+            print("------------")
             print("영화 삭제")
+            print("------------")
             title = input("삭제할 영화명 입력 > ")
             del_movie(lst_movie, title)
 
@@ -53,14 +66,24 @@ def run():
         
 # 영화검색 함수
 def search_movie(items: list, title: str):
+    count = 0
     for item in items: # item이 Movie 클래스인지 알 수 없음.
         if item.isNameContain(title): # 오타발생 위험!
+            count += 1 # 검색된 결과가 있음
             print(item)
+            print("------------") # 각 영화 아이템별 구분자
+    print(f"검색 데이터 수 : {count}개")
+    
 
 def del_movie(items: list, title: str):
+ 
     for i, item in enumerate(items): # 인덱스번호 출력
         if item.isNameExist(title):
             del items[i] # 인덱스로 리스트에 요소하나를 삭제
+            print("영화 삭제 성공!!")
+
+        
+
 
 # 폴더에 파일로 영화리스트 저장
 def save_movie(items: list):
@@ -99,9 +122,11 @@ def set_movie():
     return movie
 
 # items 변수는 list 타입이라고 지정
-def get_movie(items: list):
+def get_movie(items: list):   
     for item in items:
         print(item)  # Movie 객체
+        print("------------") # 각 영화 아이템별 구분자
+    print(f"총 데이터수 : {len(items)}개")
 
 
 def set_menu():
