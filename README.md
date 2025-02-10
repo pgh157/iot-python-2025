@@ -151,6 +151,8 @@ https://github.com/user-attachments/assets/d8864366-280f-40c4-9c65-99c48b817727
             - Create : 새 jupyter 노트북 클릭
             - 무조건 저장 먼저(.ipynb)
             - 커널선택 - python - 3.11.9
+        - GUI 학습에는 불합리
+        - 빅데이터분석, 머신러닝, 딥러닝 많이 활용
    
     - GUI 학습
         - GUI(Graphic User Interface) - 그래픽 사용자 인터페이스
@@ -171,3 +173,19 @@ https://github.com/user-attachments/assets/d8864366-280f-40c4-9c65-99c48b817727
             - 모바일 특화로 멀티플랫폼 지원
             - 가장 어렵다
 
+    - Tkinter 학습
+        - 기본 템플릿
+
+        ```python
+        from tkinter import*
+        root = Tk()
+        # 이 사이에 위젯, 이벤트 등 작성 (위젯이 부모클래스)
+        # Label, Button, Entry, Radiobutton
+        # Checkbutton, Listbox, Frame 등 ...
+        # 위젯.pack() 필수!
+        root.mainloop()
+        ```
+<!-- 주석 -->
+<!-- html에서 사용하는 <img>태그로 캡처한 이미지를 추가 -->
+![py001](./image/py001.png)
+<img src="./image/py001.png" width="400">
