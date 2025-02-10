@@ -187,5 +187,6 @@ https://github.com/user-attachments/assets/d8864366-280f-40c4-9c65-99c48b817727
         ```
 <!-- 주석 -->
 <!-- html에서 사용하는 <img>태그로 캡처한 이미지를 추가 -->
-![py001](./image/py001.png)
-<img src="./image/py001.png" width="400">
+<!--![py001](./image/py001.png)-->  
+<!--위에는 이미지 원본 사이즈(마크다운 기본방식)-->
+<img src="./image/py001.png" width="400">  <!-- html 문법이라 사이즈 조절 가능-->
