@@ -1,4 +1,6 @@
-# iot-python-2025
+# iot-python-
+
+2025
 iot 개발자 기초 프로그래밍 언어 리포지토리
 
 ## 1일차
@@ -138,7 +140,13 @@ iot 개발자 기초 프로그래밍 언어 리포지토리
         - 내 영화 앱 수정, 마무리
             - 예외처리 : 입력시 바로 엔터, 입력시 아이템 4개의 아이템을 입력하지 않으면, 
             - 화면편집 : 검색이나 출력시 데이터 수 표시
-      "C:\Users\Admin\Documents\PicPick\2025-02-10 10 04 59.mp4"
+
+
+https://github.com/user-attachments/assets/d8864366-280f-40c4-9c65-99c48b817727
+
+
+
+
       
 
         - 챗 GPT 윈도우맵(tkinter) 만들기
