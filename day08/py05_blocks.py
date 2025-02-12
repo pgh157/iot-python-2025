@@ -60,7 +60,7 @@ def main():
     M_FAIL = bigFont.render("FAILED",True,"red")
 
     while True:
-
+  
 
         # 스코어, 스피드 글자.
         M_SCORE = smallFont.render(f"SCORE : {score}",True, "White")
@@ -127,6 +127,7 @@ def main():
             if BALL.rect.centery> 800:
                 Surface.blit(M_FAIL,(((SCREEN_WIDTH/2)-(240/2),
                                        (SCREEN_HEIGH/2)-(50/2))))
+               
                 # is_game_start = False  # 게임 종료 후 재시작은 나중에 다시!!
             BALL.draw_E()
             PADDLE.draw_R()
@@ -136,5 +137,6 @@ def main():
 
         pygame.display.update()
         FPSCLOCK.tick(30) 
+
 if __name__ == "__main__":
     main()
