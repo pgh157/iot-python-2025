@@ -57,7 +57,7 @@ iot 개발자 기초 프로그래밍 언어 리포지토리
     - 연산자
         - 사칙 연산 : +, -, *, /, //, %, **, ( )  괄호는 우선순위 때문에
         - 리스트 연산 : list[0], list[0:3 + 1]
-        - 문자열 연산 : split(), replace(), strip(), find(), upper(), lower() ...
+        - 문자열 연산 : (), replace(), strip(), find(), upper(), lower() ...
 
 - 깃허브[데스크톱]
     1. **fetch orign** : 리모트 최신변경사항 확인(중요!)
