@@ -142,7 +142,11 @@ iot 개발자 기초 프로그래밍 언어 리포지토리
             - 화면편집 : 검색이나 출력시 데이터 수 표시
             - 영상 넣을때 영상을 드래그해서 깃허브에 올리면 됨.
 
-https://github.com/user-attachments/assets/d8864366-280f-40c4-9c65-99c48b817727
+
+
+https://github.com/user-attachments/assets/b63d9fcf-8e2c-45e8-95f1-6ff9f4dcb8c3
+
+
 
 - 파이썬 응용
     - 주피터노트북 기본사용법
@@ -201,7 +205,11 @@ https://github.com/user-attachments/assets/d8864366-280f-40c4-9c65-99c48b817727
 
 
 
-https://github.com/user-attachments/assets/39779df5-c390-4f36-b4f4-f5403d576da0
+
+
+
+https://github.com/user-attachments/assets/501a9cf3-8b07-4ff5-a816-a70175f4054b
+
 
 
 
