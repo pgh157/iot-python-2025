@@ -127,6 +127,8 @@ def main():
             if BALL.rect.centery> 800:
                 Surface.blit(M_FAIL,(((SCREEN_WIDTH/2)-(240/2),
                                        (SCREEN_HEIGH/2)-(50/2))))
+
+
                
                 # is_game_start = False  # 게임 종료 후 재시작은 나중에 다시!!
             BALL.draw_E()

@@ -227,5 +227,18 @@ https://github.com/user-attachments/assets/39779df5-c390-4f36-b4f4-f5403d576da0
 
     - 토이프로젝트 
         - 블록깨기 게임
+            - x축 방향 계산방법 : $x = r \cdot \cos \theta$
+            - y축 방향 계산방법 : $y = r \cdot \sin \theta$
+            - 공의 시작방향, 경계부분 문제 해결, 종료 후 다시 시작 로직
+    
+    <!-- $y = r \cdot \sin \theta$ -->
+    
+
 
 <img src="./image/blocks.gif" width="700" heigh="450">
+
+
+
+## 9일차
+
+- 코딩 테스트
